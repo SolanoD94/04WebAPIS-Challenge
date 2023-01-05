@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Challenge</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header>
+    
+    <a href="highscores.html">View Highscores</a>
+    <p id="time">Time: 90</p>
+    <p id="score">Score: 0</p>
+</header>
+<main>
+    <h1 id="title">Coding Quiz Challenge</h1>
+    <h2 id="question" hidden>Question</h2>
+    <p id="intro">This is a Coding Quiz for beginners. Let's see how many questions you can answer in 90 seconds. Win 1 point for each correct answer!
+    <br><br>Remember to answer quickly or you will run out of time! If your answer is incorrect, 10 seconds will be taken off the time counter.
+    <br><br>Press Start to begin.</p>
+    <div id="answerButtons" hidden>
+        <button id="answer1" class="btn">Answer 1</button>
+        <button id="answer2" class="btn">Answer 2</button>
+        <button id="answer3" class="btn">Answer 3</button>
+        <button id="answer4" class="btn">Answer 4</button>
+    </div>
+    <div id="endPage" class="endPage hide" >
+        <h3 id="finalScore" > Your Final Score is: 0 </h3>
+        <p id="nameContainer" class="nameContainer">Enter your name to submit: </p>
+        <p id="emptyName" class="emptyName hide"> Please write your name to submit</p>
+        <input type="text" id="nameLabel" name="playersName" placeholder="Enter your name" ></input>        
+        <a href="highscores.html" style="text-decoration: none"><button id="save" class="btn">Save</button></a>
+
+    </div>
+    <button id="start-btn" class="btn">Start</button>
+    
+</main>
+
+<!--End of Code-->    
+    <script src="script.js"></script>
+</body>
+</html>

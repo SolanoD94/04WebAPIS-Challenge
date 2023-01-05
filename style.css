@@ -1,0 +1,76 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+--btn: rgba(32, 6, 79, 0.936);
+}
+
+body{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(238, 236, 247);
+
+}
+
+main{
+    align-items: center;
+    margin: 5% 15%;
+}
+
+.btn{
+  background-color: var(--btn);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+ 
+}
+
+.hide{
+    display: none !important;
+}
+
+.lastScore{
+    background-color: rgb(215, 192, 236);
+    color: black;
+    border-radius: 2px;
+    padding: 15px 15px 15px 30px;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.nameContainer{
+    font-size: 16px;
+    font-weight: lighter;
+    display: inline-block;
+
+}
+
+.emptyName{
+    font-size: 14;
+    color: red;
+    font-style: italic;
+    padding-left: 25px;
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(100, 7, 186);
+    margin-bottom: 10px;
+}
+
+h3{
+font-size: 18px;
+margin-bottom: 0px;
+}
