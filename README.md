@@ -1,13 +1,5 @@
 # 04 Web APIs: Code Quiz
 
-## Your Task
-
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
-
-To help familiarize you with these tests and allow you to use the skills covered in this module, this Challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
-
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
-
 ## User Story
 
 ```
@@ -32,68 +24,55 @@ WHEN the game is over
 THEN I can save my initials and my score
 ```
 
-## Mock-Up
 
-The following animation demonstrates the application functionality:
+### Questions and Answers
+```
+What method adds a child element to a parent?
+childNodes
+lastChild
+appendChild
+parentNode
+```
+```
+What does JSON.stringify does?
+Adds a value to an array.
+Converts a JavaScript value to a JSON string.
+Converts a Web data to a JavaScript object
+Stores an object.
+```
+```
+Select the 'Data Types'?
+class,id,for,name
+h1,h2,main,header
+color, background, margin, padding
+string, number, boolean, bigInt, symbol
+```
+```
+How do you declare an organized list?
+<ol>
+<li>
+<ul>
+<p>
+```
+```
+How do you declare a LOGICAL NOT?
+not a
+!
+//
+--
+```
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
+###Screenshots
+![Captura de Pantalla 2023-01-04 a la(s) 22 18 56](https://user-images.githubusercontent.com/117420563/210700939-b189112b-61c5-42c8-b512-1737e4071bcc.png)
+![Captura de Pantalla 2023-01-04 a la(s) 22 18 33](https://user-images.githubusercontent.com/117420563/210701021-3f66e4b1-ee33-4e2d-8498-7f6e69def71f.png)
+![Captura de Pantalla 2023-01-04 a la(s) 22 18 40](https://user-images.githubusercontent.com/117420563/210701037-6345112e-6610-4f50-bf1f-d1b7a379902f.png)
+![Captura de Pantalla 2023-01-04 a la(s) 22 18 51](https://user-images.githubusercontent.com/117420563/210701054-6057f952-93b5-4879-961a-45b95f4c328d.png)
 
-## Grading Requirements
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+###Link
 
-This Challenge is graded based on the following criteria: 
 
-### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the preceding acceptance criteria.
 
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
 
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
